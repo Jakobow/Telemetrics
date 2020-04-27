@@ -1,0 +1,31 @@
+﻿body {
+    margin: 50px;
+    font-family: Consolas;
+}
+
+h1 {
+    font-family: Calibri;
+    text-align: left;
+    font-size: 80px;
+    
+}
+
+.courier {
+
+    font-family: 'Courier New';
+}
+.data {
+    
+    float: left;
+    margin-right: 50px;
+}
+
+.right_image {
+    margin-left: 50px;
+    padding: 30px;
+    
+}
+
+.Pokoriteli {
+    padding-left: 0px;
+}

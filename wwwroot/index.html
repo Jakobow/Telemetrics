@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Telegram</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>
+        <img src="Media/Pokoriteli_small.jpg" alt="Pokoriteli" width="110" height="102" onclick="addItem()">
+         T E L E G R A M      
+
+    </h1>
+    
+
+    <div class="data">
+        <h3>Данные</h3>
+        <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+            <p>
+                p1 <input type="text" id="textBox_p1" class="courier">
+            </p>
+            <p>
+                p2 <input type="text" id="textBox_p2" class="courier">
+            </p>
+            <p>
+                p3 <input type="text" id="textBox_p3" class="courier">
+            </p>
+            <p>
+                p4 <input type="text" id="textBox_p4" class="courier">
+            </p>
+            <p>
+                p5 <input type="text" id="textBox_p5" class="courier">
+            </p>
+            <p>
+                t1 <input type="text" id="textBox_t1" placeholder="text" class="courier">
+                
+            </p>
+            <p style="padding-left: 60px">
+                <input type="submit" value="Отправить">
+            </p>
+        </form>
+
+    </div>
+
+    <div class="right_image">
+        <img src="Media/Lunohod.jpg" alt="Lunohod">
+    </div>
+    <!--
+    <div class="data">
+        <img src="Media/Pokoriteli_small.jpg" alt="Pokotiteli" class="Pokoriteli" width="110" height="102" onclick="addItem()">
+    </div>
+    -->
+    <div>
+
+
+        <table class="courier">
+            <tr>
+                <th></th>
+                <th>Telegrams</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tbody id="todos" style="font-size: small"></tbody>
+        </table>
+        <p id="counter"></p>
+    </div>
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>

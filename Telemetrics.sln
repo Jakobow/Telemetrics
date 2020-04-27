@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetrics", "Telemetrics.csproj", "{D094184C-D5F3-402A-97EA-0A4635B2CBAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D094184C-D5F3-402A-97EA-0A4635B2CBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D094184C-D5F3-402A-97EA-0A4635B2CBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D094184C-D5F3-402A-97EA-0A4635B2CBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D094184C-D5F3-402A-97EA-0A4635B2CBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE81A155-5A06-4BB8-A2E1-89EDF598C3BF}
+	EndGlobalSection
+EndGlobal
